@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;excelExportAndFileIO.ReadGuru99ExcelFile&apos; to &apos;ReadExcelFile&apos;&#x0A;- Original project: &apos;KeywordDrivenFramework&apos;&#x0A;- Original element: &apos;excelExportAndFileIO.ReadGuru99ExcelFile&apos;&#x0A;- Renamed element: &apos;excelExportAndFileIO.ReadExcelFile&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ReadGuru99ExcelFile&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;excelExportAndFileIO{ReadGuru99ExcelFile.java[ReadGuru99ExcelFile" matchStrategy="1" name="ReadExcelFile" qualified="false" references="true" similarDeclarations="false" stamp="1568978018943" textual="false" version="1.0"/>
+</session>

@@ -1,3 +1,5 @@
-GitRepositoriesView.GitDirectories=/home/yinyang/.git\:
-GitRepositoriesView.GitDirectories.relative=/home/yinyang/.git\:
+GitRepositoriesView.GitDirectories=/home/yinyang/eclipse-workspace/.git\:
+GitRepositoriesView.GitDirectories.relative=.git\:
+RepositorySearchDialogDeepSearch=true
+RepositorySearchDialogSearchPath=/home/yinyang/eclipse-workspace
 eclipse.preferences.version=1

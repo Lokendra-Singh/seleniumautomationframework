@@ -1,0 +1,2 @@
+module Fancy11 {
+}

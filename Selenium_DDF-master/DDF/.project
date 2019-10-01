@@ -14,11 +14,4 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>Addtional Library</name>
-			<type>2</type>
-			<location>/home/yinyang/eclipse-workspace/Addtional Library</location>
-		</link>
-	</linkedResources>
 </projectDescription>

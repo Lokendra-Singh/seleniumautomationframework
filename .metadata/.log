@@ -6857,3 +6857,61 @@ java.nio.file.InvalidPathException: Illegal char <:> at index 4: .git:
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+!SESSION 2019-10-08 21:58:03.077 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-10-08 21:58:20.089
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Lokendra Singh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-10-08 22:06:40.961
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Build path contains duplicate entry: 'C:Users/Lokendra Singh/git/Addtional Library/selenium-server-standalone-3.141.59.jar' for project 'SeleniumAutomationPractice']
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:798)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3554)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3514)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3527)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.BuildPathsBlock.flush(BuildPathsBlock.java:947)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.BuildPathsBlock.configureJavaProject(BuildPathsBlock.java:769)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.BuildPathsBlock.configureJavaProject(BuildPathsBlock.java:765)
+	at org.eclipse.jdt.internal.ui.preferences.BuildPathsPropertyPage$1.run(BuildPathsPropertyPage.java:220)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5834)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.jdt.core 4 977 2019-10-08 22:06:40.965
+!MESSAGE Build path contains duplicate entry: 'C:Users/Lokendra Singh/git/Addtional Library/selenium-server-standalone-3.141.59.jar' for project 'SeleniumAutomationPractice'
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-10-08 22:06:50.289
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Build path contains duplicate entry: 'C:Users/Lokendra Singh/git/Addtional Library/selenium-server-standalone-3.141.59.jar' for project 'SeleniumAutomationPractice']
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:798)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3554)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3514)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3527)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.BuildPathsBlock.flush(BuildPathsBlock.java:947)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.BuildPathsBlock.configureJavaProject(BuildPathsBlock.java:769)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.BuildPathsBlock.configureJavaProject(BuildPathsBlock.java:765)
+	at org.eclipse.jdt.internal.ui.preferences.BuildPathsPropertyPage$1.run(BuildPathsPropertyPage.java:220)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5834)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.jdt.core 4 977 2019-10-08 22:06:50.290
+!MESSAGE Build path contains duplicate entry: 'C:Users/Lokendra Singh/git/Addtional Library/selenium-server-standalone-3.141.59.jar' for project 'SeleniumAutomationPractice'

@@ -22,6 +22,7 @@ public class ExecuteTest {
 	public void testLogin() throws Exception {
 		// TODO Auto-generated method stub
        WebDriver webdriver = new FirefoxDriver();
+       System.setProperty("webdriver.gecko.driver", "C:\\Users\\Lokendra Singh\\git\\Addtional Library\\geckodriver.exe"); 
        ReadExcelFile file = new ReadExcelFile();
         ReadObject object = new ReadObject();
         Properties allObjects =  object.getObjectRepository();

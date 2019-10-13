@@ -1,0 +1,33 @@
+Custom CSS Selector= tag[attribute='value']
+anotere way to declare the cssSelect= .classname 
+Custom Xpath= //tagname[@attribute='value']
+Relative Xpath and Absolute Xpath
+$x("")= to validate the xpath in console tab
+$("")= to validate the cssSelector in console tab
+parent child traversing
+sibling traversing //li[@class='book_flight']/following-sibling::li[2]
+child to parent traversing= //li[@class='book_flight']/parent::ul
+reverse traversing can't be possible through the cssSelector but through xpath can be possible. This is the main difference b/w both.
+
+----------------------------------------------------------------------------------------------------------------------- 
+
+
+1. Custom xpath and cssSelector get
+2. use all the locators (id,name, linktext, xpath and cssselector)
+3. Css selector with 2 approach
+4. parent child traversing, super parent child traversing, sibiling traversing for text field and buttons/menus
+5. Pessengers increment using loop and get text.
+6. Click on every radio button and get text of each.
+7. Access the pop up on the click of Multicity radio button.
+8. Get the content/text on the pop up.
+9. To validate the element is active/inactive using if else condition and isenable method.
+10. To validate that a checkbox is selected or not. isSelected();
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Text field, Text area, Buttons
+Select box,  Radio buttons,
+
+
+compare the select box button on the basis of indexing. ctl00$mainContent$chk_StudentDiscount with .properties
+

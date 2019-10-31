@@ -1,3 +1,16 @@
+Text field/area
+Radio button
+checko box
+dropdown (dynemic and static)
+Normal button
+hyper link
+auto suggestive 
+
+
+
+
+
+
 Custom CSS Selector= tag[attribute='value']
 anotere way to declare the cssSelect= .classname 
 Custom Xpath= //tagname[@attribute='value']
@@ -30,4 +43,13 @@ Select box,  Radio buttons,
 
 
 compare the select box button on the basis of indexing. ctl00$mainContent$chk_StudentDiscount with .properties
+
+
+
+---------------------------------------------------------------
+Static drop down handled by the select class. If a drop down starts with select tagname, that is the static dropdown.
+dynemic drop down
+
+
+ctl00_mainContent_ddl_originStation1_CTNR      ctl00_mainContent_ddl_destinationStation1_CTNR
 

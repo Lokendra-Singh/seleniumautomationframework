@@ -52,4 +52,19 @@ dynemic drop down
 
 
 ctl00_mainContent_ddl_originStation1_CTNR      ctl00_mainContent_ddl_destinationStation1_CTNR
+------------------------------------------------------------------
+
+Actions class
+limiting webdriver scop
+multiple window handling
+Count of links
+validating a deadlink
+
+
+
+
+
+Test
+-----------------------------------------------------------------------------------------------
+to validate a particular column in footer
 
